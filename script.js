@@ -16,7 +16,7 @@ function createTable() {
             let tr = document.createElement("tr");
             for (let j = 0; j < cols; j++) {
                 let td = document.createElement("td");
-                td.textContent = Row-${i} Column-${j};
+                td.textContent = `Row-${i} Column-${j}`;
                 tr.appendChild(td);
             }
             table.appendChild(tr);
